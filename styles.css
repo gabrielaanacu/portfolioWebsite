@@ -1,0 +1,104 @@
+:root {
+    --mycol: #ff5555;
+    --mycol2: white;
+}
+
+body {
+    font-family: 'Marvel', sans-serif;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+.button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: grey;
+    border: none;
+    color: var(--mycol2);
+    text-align: center;
+    font-size: 25px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button:hover span {
+    padding-right: 25px;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.fakeimg {
+    height: 200px;
+    background: var(--mycol);
+}
+
+#headjumbotron {
+    height: 80vh;
+}
+
+#jumbotrontext {
+    margin-top: 350px;
+}
+
+#topJumbotron {
+    margin-bottom: 0;
+    height: 90vh;
+}
+
+#navcolor {
+    background-color: var(--mycol);
+}
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1.75em;
+    margin-top: 0.25em;
+    color: white;
+    /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+}
+
+.fakeimg {
+    height: 200px;
+    background: #aaa;
+}
