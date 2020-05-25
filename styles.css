@@ -57,12 +57,12 @@ body {
 }
 
 #jumbotrontext {
-    margin-top: 350px;
+    margin-top: 300px;
 }
 
 #topJumbotron {
     margin-bottom: 0;
-    height: 90vh;
+    height: 70vh;
 }
 
 #navcolor {
@@ -106,4 +106,8 @@ body {
 
 #jumbotronButton:hover {
     opacity: 0.7;
+}
+
+div {
+    position: relative
 }
