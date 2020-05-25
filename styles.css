@@ -56,10 +56,6 @@ body {
     background: var(--mycol);
 }
 
-#headjumbotron {
-    height: 80vh;
-}
-
 #jumbotrontext {
     margin-top: 350px;
 }
@@ -101,4 +97,13 @@ body {
 .fakeimg {
     height: 200px;
     background: #aaa;
+}
+
+#jumbotronButton {
+    opacity: 1;
+    transition: opacity 1s;
+}
+
+#jumbotronButton:hover {
+    opacity: 0.7;
 }
